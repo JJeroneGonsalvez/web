@@ -1,0 +1,15 @@
+
+h1 {
+    background-color: black;
+    border: dashed;
+    border-width: 20px;
+    border-color: green yellow blue orange;
+    margin: 50px;
+    padding: 200px;
+    text-align: center;
+    /* text-size-adjust: auto; */
+    color: sienna;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
