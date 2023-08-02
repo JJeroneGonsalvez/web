@@ -13,3 +13,29 @@ h1 {
     font-family:cursive;
     font-size: xx-large;
 }
+.box{
+    margin: 300px;
+    padding: 20px 30px;
+    background-color: black;
+    color: aqua;
+    border-color: white;
+    border: solid;
+    border-width: thick;
+    font-size: xx-large;
+    font-family: fantasy;
+    border-radius: 20px;
+
+}
+.box:hover{
+    background-color: aqua;
+    color: black;
+    border-color: black red blue green;
+    transform: scaley(0.5
+    );
+    /* transform: rotate(1.5); */
+    transition: 3s;
+}
+.box::visited{
+    background-color: green;
+    color: blue;
+}
