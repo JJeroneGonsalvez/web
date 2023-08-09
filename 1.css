@@ -14,8 +14,9 @@ h1 {
     font-size: xx-large;
 }
 .box{
-    margin: 300px;
-    padding: 20px 30px;
+
+    margin: 17px;
+    padding: 06px 26px;
     background-color: black;
     color: aqua;
     border-color: white;
@@ -38,4 +39,78 @@ h1 {
 .box::visited{
     background-color: green;
     color: blue;
+}
+.mydiv{
+    /* float: left; */
+    background-color: aqua;
+    border: solid;
+    height: 200px;
+    width: 200px;
+}
+.div{
+   
+    background-color: blue;
+    border: solid;
+    height: 200px;
+    width: 200px;
+
+}
+.re{
+    /* float: left; */
+    background-color: brown;
+    border: solid;
+    height: 200px;
+    width: 200px;
+}
+.be{
+    /* float: left; */
+    background-color:chartreuse;
+    border: solid;
+    height: 200px;
+    width: 200px;
+}
+.fl{
+    float: left;
+}
+.pos{
+    height: 200px;
+    width: 200px;
+    border: solid;
+    background-color: blueviolet;
+    position: static;
+    /* top: 50px;
+    left: 600px; */
+}
+.con{
+    height: 80px;
+    width: 80px;
+    border: solid;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    position: relative;
+    top: -150px;
+    left: 60px;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    height: 400px;
+    width: 300px;
+    align-self: stretch;
+}
+.one{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+.two{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.three{
+   
+    width: 200px;
+    height: 200px;
+     background-color: yellow;
 }
