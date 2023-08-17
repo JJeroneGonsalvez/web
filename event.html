@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ev{
+            background-color: black;
+            height: 300px;
+            width: 300px;
+            border: 2px solid white;
+           
+        }
+        .cm{
+            display: flex;
+            
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <div class="cm">
+        <div class="ev"  ondblclick="db()">
+         </div>
+        <div class="ev" onclick="clickfn()">
+         </div>
+        <div class="ev" oncopy="sb()" style="color: white; font-weight: bolder;">
+        hello welcome all to my website
+         </div>
+        <div class="ev" onmouseover="fn()"></div>
+    </div>
+    <script>
+        function clickfn(){
+            let b=prompt("enter your name");
+
+            alert("hello "+ b);
+        }
+        function db(){
+            confirm("are you 18 years old");
+        }
+        function fn(){
+            alert("your mouse is over the div");
+        }
+        function sb(){
+            alert("not allowed to copy");
+        }
+    </script>
+    
+</body>
+</html>
